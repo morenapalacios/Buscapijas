@@ -1,0 +1,77 @@
+/*** graphpaper in bio ***/
+
+/* fonts and colors */
+
+:root {
+  --color-bg: lime;
+  --color-bg-alt: cyan;
+}
+
+/* full page */
+body {
+  background: radial-gradient(at center, var(--color-bg-alt), var(--color-bg));
+}
+
+::selection {
+  background: var(--color-bg);
+}
+::-moz-selection {
+  background: var(--color-bg);
+}
+
+main {
+  position: relative;
+  z-index: 1;
+}
+
+/* graphpaper */
+
+#bg-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  padding: 0;
+  margin: 0;
+}
+
+/*miooooo*/
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /*background-image: url("fondo.png");*/
+  margin: 0;
+  padding: 0;
+  background-color: #8C9C67;
+}
+
+canvas {
+  margin-left:500px;
+}
+
+#buscapijas {
+  text-align: center;
+  margin-top: 20px; 
+}
+
+#start {
+  font-size: 80px;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+#lupa {
+  text-align: center;
+  margin-top: 10%;
+}
+
+#lupa img {
+  height: 130px;
+}
